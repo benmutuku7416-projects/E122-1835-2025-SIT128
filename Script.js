@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		  alert('please enter a valid email address.');
 		  return;
 	  }
-	  alert('Thank you, ${name}! \n\nYour message about "${subject}" has  been sent. \nWe will reply to ${email} within 24 hours.');
+	  alert('Thank you, ${name}! \n\nYour message  has  been sent. \nWe will reply to you email within 24 hours.');
 	  contactForm.reset();
     });
   }
