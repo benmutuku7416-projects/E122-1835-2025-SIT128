@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | TOURCOUR</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="Script.js" defer></script>
+</head>
+<body>
+<header>
+<nav>
+<div class="logo">TOURCOUR</div>
+<ul>
+<li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+<li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+<li><a href="destinations.html"><i class="fas fa-map-marked-alt"></i> Destinations</a></li>
+<li><a href="culture.html"><i class="fas fa-users"></i> Culture</a></li>
+<li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+<li><a href="contact.html" class="active"><i class="fas fa-envelope"></i> Contact</a></li>
+<li><button class="btn login-button"><i class="fas fa-sign-in-alt"></i> Login</button></li>
+<li><button class="btn register-button"><i class="fas fa-user-plus"></i> Register</button></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<div class="page-header" style="background-image: url('Images/Image 56.jpg');">
+<h1>Get In Touch</h1>
+<p>Planning your Kenya adventure? Let’s talk.</p>
+</div>
+
+<section class="contact">
+<div class="contact-container">
+<div class="contact-info">
+<h2>Contact Information</h2>
+<p>We'd love to hear from you. Reach out with any questions about touring Kenya.</p>         
+<div class="info-item">
+<i class="fas fa-map-marker-alt"></i>
+<div>
+<h4>Location</h4>
+<p>Nairobi, Kenya</p>
+</div>
+</div>          
+<div class="info-item">
+<i class="fas fa-phone"></i>
+<div>
+<h4>Phone</h4>
+<p>+254 718071418</p>
+</div>
+</div>
+<div class="info-item">
+<i class="fas fa-envelope"></i>
+<div>
+<h4>Email</h4>
+<p>info@tourcour.co.ke</p>
+</div>
+</div>
+<div class="info-item">
+<i class="fas fa-clock"></i>
+<div>
+<h4>Hours</h4>
+<p>Mon - Sat: 8:00 AM - 6:00 PM</p>
+</div>
+</div>
+</div>
+
+<div class="contact-form-wrapper">
+<h2>Send Us a Message</h2>
+<form id="contactForm">
+<div class="form-group">
+<label for="name"><i class="fas fa-user"></i> Your Name</label>
+<input type="text" id="name" name="name" placeholder="Ben" required>
+</div>           
+<div class="form-group">
+<label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+<input type="email" id="email" name="email" placeholder="Ben@example.com" required>
+</div>
+<div class="form-group">
+<label for="subject"><i class="fas fa-tag"></i> Subject</label>
+<input type="text" id="subject" name="subject" placeholder="Safari Inquiry" required>
+</div>           
+<div class="form-group">
+<label for="message"><i class="fas fa-comment"></i> Your Message</label>
+<textarea id="message" name="message" placeholder="Tell us about your dream Kenya trip..." rows="5" required></textarea>
+</div>
+<button type="submit" class="btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+  <footer>
+<div class="footer-content">
+<div class="footer-section">
+<h4>TOURCOUR</h4>
+<p>Explore Kenya with local experts since 2024.</p>
+</div>
+<div class="footer-section">
+<h4>Quick Links</h4>
+<a href="about.html">About</a>
+<a href="destinations.html">Destinations</a>
+<a href="gallery.html">Gallery</a>
+</div>
+<div class="footer-section">
+<h4>Follow Us</h4>
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+</div>
+</div>
+<p class="copyright">&copy; 2026 TOURCOUR. All rights reserved.</p>
+  </footer>
+<div class="modal login-modal" id="loginModal">
+<div class="modal-content">
+      <span class="close">&times;</span>
+      <h2><i class="fas fa-sign-in-alt"></i> Login</h2>
+      <form id="loginForm">
+        <div class="form-group">
+          <input type="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Password" required>
+        </div>
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Register Modal -->
+  <div class="modal register-modal" id="registerModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2><i class="fas fa-user-plus"></i> Register</h2>
+      <form id="registerForm">
+        <div class="form-group">
+          <input type="text" placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Password" required>
+        </div>
+        <button type="submit" class="btn">Create Account</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
